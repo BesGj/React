@@ -1,0 +1,72 @@
+main {
+display: flex;
+flex-direction: column;
+height: 90vh;
+justify-content: center;
+align-items: center;
+}
+
+h2 {
+font-size: 4rem;
+font-weight: 400;
+}
+
+h4 {
+text-align: center;
+font-size: 2rem;
+font-weight: 400;
+margin-top: 0;
+margin-bottom: 10px;
+}
+
+.interval-container {
+display: flex;
+margin: 0 59px;
+align-items: center;
+}
+
+.interval-length-container {
+display: flex;
+}
+
+button {
+padding: 5px 12px;
+margin: 0 10px;
+height: 25px;
+background-color: #7ed6df;
+border: none;
+outline: none;
+cursor: pointer;
+color: #eee;
+font-weight: bold;
+border-radius: 5px;
+width: 70px
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.interval-length {
+  font-size: 2rem;
+  margin: 0 15px
+}
+
+.timer-container {
+ border: 2px solid #7ed6df;
+ margin-top: 40px;
+ border-radius: 20px;
+ width: 300px;
+ text-align: center;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+ padding: 10px;
+}
+
+.timer {
+ font-size: 1.5rem;
+}
+
+.timer-actions {
+  margin-top: 20px;
+  text-align: center;
+}
